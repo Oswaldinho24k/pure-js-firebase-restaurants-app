@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+/*Nav*/
+nav{
+    height: 50px;
+    background-color: peru;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    width:100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*form*/
+.form_container{
+    width: 30%;
+    padding: 5%;
+}
+.form_container form{
+    width:100%;
+}
+.form_container form *{
+    width: 100%;
+}
+
+/*List*/
+.restaurants_list{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.restaurants_list .card{
+    width:30%;
+    height: 200px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.3);
+    margin:10px 0;
+}
+.restaurants_list .card img{
+    width:100%;
+    height: 140px;
+}
+.restaurants_list .card div{
+    padding: 5px 10px;
+    text-align: center;
+}

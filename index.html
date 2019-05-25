@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>firebase app</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Restaurantes FixterJS</h1>
+    </nav>
+    <main>
+        <section class="restaurants_list"></section>
+        <aside class="form_container">
+            <form action="">
+                <p>
+                    Nombre:
+                    <input type="text" name="nombre">
+                </p>
+                <p>
+                    Dirección
+                    <input type="text" name="direccion">
+                </p>
+                <p>
+                    Imagen URL
+                    <input type="text" name="imagenURL">
+                </p>
+                <button type="submit">Guardar</button>
+            </form>
+        </aside>
+    </main>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script src="./app.js"></script>
+</body>
+</html>
